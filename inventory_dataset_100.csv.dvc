@@ -1,0 +1,5 @@
+outs:
+- md5: 89e67f4b4711dff93bed387be64a5aac
+  size: 3246
+  hash: md5
+  path: inventory_dataset_100.csv
