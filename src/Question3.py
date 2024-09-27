@@ -8,7 +8,7 @@ X, y = make_regression(n_samples=100, n_features=5, noise=0.1)
 # Train-test split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 
-# AutoML model
+# AutoML modelS
 automl = TPOTRegressor(verbosity=2, generations=5, population_size=50)
 automl.fit(X_train, y_train)
 
